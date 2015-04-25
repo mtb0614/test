@@ -1,26 +1,44 @@
 @charset "UTF-8";
 
-header{
-	color:white;
-}
-.header{
-	position:relative;
-}
 
-.header:before{
-	content:"";
-	display:block;
-	position:absolute;
-	width:100%;
-	height:100%;
-	background-color:#252428;
-	opacity:0.9;
-	z-index:-1;
+.header_dark{
+    background-color:#323232;
+    color:#ffffff;
 }
 
+.main_dark{
+    background-color:#3B3B3B;
+}
 
+.bg_white{
+    background-color:#ffffff;
+}
 
-/* add */
-label {
-	display:inline-block;
+.bg_mint{
+    color:#ffffff;
+    background-color:#7AC5C0;
+}
+
+.cl_mint{
+    color:#7AC5C0;
+}
+
+.menu{
+    border-left:1px solid #323232;
+}
+
+.menu li {
+    color:#a9a9a9;
+    list-style: none;
+    padding:20px 20px;
+    border-bottom:1px solid #323232;
+
+}
+
+.menu li:first-child{
+    padding-top:30px;
+}
+
+.padding-left-minus-20{
+    margin-left:-20px;
 }

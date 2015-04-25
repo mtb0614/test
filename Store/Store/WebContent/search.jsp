@@ -9,9 +9,34 @@
 </head>
 <body>
 <header>
-	<div class="xs-12 header">
-		<div class="xs-10 container" >
-			<h1>店舗検索</h1>
+  <div class="header_dark padding-y-20">
+    <div class="container">
+        <div class="row">
+          <div class="col md-3">
+          ページタイトル
+          </div>
+        </div>
+    </div>
+  </div>
+</header>
+<div class="main_dark">
+  <div class="container padding-bottom-100">
+    <div class="row">
+      <div class="col md-3">
+      <ul class="menu padding-left-0">
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+        <li>リスト1</li>
+      </ul>
+      </div>
+      <div class="col md-9 bg_white padding-left-minus-20">
+          <h1 class="row bg_mint padding-top-20 padding-bottom-20">タイプタイトル</h1>
+          <p class="cl_mint">テストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプルテストサンプル</p>
 			<form method="post" action="/Store/SearchServlet">
 				<input type="hidden" name="action" value="search">
 				<div class="xs-12">
@@ -56,9 +81,10 @@
 				<input class="btn btn-light" type="submit" value="検索">
 				</div>
 			</form>
-		</div>
-	</div>
-</header>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

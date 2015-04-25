@@ -253,7 +253,7 @@ body > iframe {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 720px; }
+    max-width: 960px; }
   .md-0 {
     width: 0%;
     float: left; }
